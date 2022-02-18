@@ -1,0 +1,57 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.detalle {
+  display: grid;
+  padding: 20px;
+  grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr;
+  background-color: rgb(255, 255, 255);
+  width: 800px;
+  height: 600px;
+  border-radius: 40px;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+  row-gap: 5px;
+  column-gap: 40px;
+}
+
+.left {
+  grid-area: 1/2/6/1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.logos img {
+  max-height: 30px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+}
+
+.btn {
+  max-height: 30px;
+  border-radius: 20px;
+  background-color: red;
+  border: none;
+  color: white;
+}
+
+.icons:hover {
+  background-color: rgb(201, 200, 200);
+}
+
+.titulo{
+   font-size: 40px;
+}
+
+.contenido{
+
+}
